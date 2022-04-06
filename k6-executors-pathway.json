@@ -6,43 +6,43 @@
             "pathway_id": "k6-executors",
             "course_id": "shared-iterations",
             "title": "Shared iterations Exercise",
-            "description": ""
+            "description": "The most basic of the executors, the primary focus will be the number of iterations for your test."
         },
         {
             "pathway_id": "k6-executors",
             "course_id": "per-vu-iterations",
             "title": "Per VU iterations Exercise",
-            "description": ""
+            "description": "TODO"
         },
         {
             "pathway_id": "k6-executors",
             "course_id": "constant-vuss",
             "title": "Constant VUs Exercise",
-            "description": ""
+            "description": "TODO"
         },
         {
             "pathway_id": "k6-executors",
             "course_id": "ramping-vus",
             "title": "Ramping VUs Exercise",
-            "description": ""
+            "description": "TODO"
         },
         {
             "pathway_id": "k6-executors",
             "course_id": "constant-arrival-rate",
             "title": "Constant Arrival Rate Exercise",
-            "description": ""
+            "description": "TODO"
         },
         {
             "pathway_id": "k6-executors",
             "course_id": "ramping-arrival-rate",
             "title": "Ramping Arrival Rate Exercise",
-            "description": ""
+            "description": "TODO"
         },
         {
             "pathway_id": "k6-executors",
             "course_id": "externally-controlled",
             "title": "Externally Controlled Exercise",
-            "description": ""
+            "description": "TODO"
         }
     ]
 }

@@ -20,8 +20,8 @@
     "test.js"
   ],
   "environment": {
-    "hideintro": false,
-    "hidefinish": true,
+    "hideintro": true,
+    "hidefinish": false,
     "hideHiddenFiles": true,
     "uilayout": "editor-terminal",
     "uisettings": "javascript",
