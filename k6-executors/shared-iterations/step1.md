@@ -46,8 +46,9 @@ Looking at our results, you should see confirmation that we truly ran a single t
 # Change the iterations
 A test of one request doesn't provide for much, so let's fix that. Let's bump up the number of `iterations` our test will perform.
 
-<pre class="file" data-filename="test.js" data-target="append" data-marker="executor: 'shared-iterations',">
-            iterations: 200,
+<pre class="file" data-filename="test.js" data-target="insert" data-marker="executor: 'shared-iterations',">
+      executor: 'shared-iterations',
+      iterations: 200,
 </pre>
 
 Once again, we'll execute the script with k6:
@@ -59,8 +60,9 @@ Output should confirm that we've run the specified number of iterations!
 # Change concurrency
 So far, our test has only utilized a single virtual user, or VU. We can update the `vus` option to increase the number of requests being performed simultaneously:
 
-<pre class="file" data-filename="test.js" data-target="append" data-marker="iterations: 200,">
-            vus: 10,
+<pre class="file" data-filename="test.js" data-target="insert" data-marker="iterations: 200,">
+      iterations: 200,
+      vus: 10,
 </pre>
 
 Run the script again:
@@ -76,8 +78,9 @@ This can be done by managing the `maxDuration` option. By default, we've been ge
 
 Let's enact an aggressive SLA for our test; one that we know from the previous tests that the 200 requests won't finish within: 
 
-<pre class="file" data-filename="test.js" data-target="append" data-marker="vus: 10,">
-            maxDuration: '5s',
+<pre class="file" data-filename="test.js" data-target="insert" data-marker="vus: 10,">
+      vus: 10,
+      maxDuration: '5s',
 </pre>
 
 `k6 run scripts/test.js`{{execute}}
