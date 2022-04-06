@@ -1,0 +1,48 @@
+{
+    "title": "k6 Executors",
+    "description": "Exercises to learn usage of the various k6 executors which model your desired load test traffic.",
+    "courses": [
+        {
+            "pathway_id": "k6-executors",
+            "course_id": "shared-iterations",
+            "title": "Shared iterations Exercise",
+            "description": ""
+        },
+        {
+            "pathway_id": "k6-executors",
+            "course_id": "per-vu-iterations",
+            "title": "Per VU iterations Exercise",
+            "description": ""
+        },
+        {
+            "pathway_id": "k6-executors",
+            "course_id": "constant-vuss",
+            "title": "Constant VUs Exercise",
+            "description": ""
+        },
+        {
+            "pathway_id": "k6-executors",
+            "course_id": "ramping-vus",
+            "title": "Ramping VUs Exercise",
+            "description": ""
+        },
+        {
+            "pathway_id": "k6-executors",
+            "course_id": "constant-arrival-rate",
+            "title": "Constant Arrival Rate Exercise",
+            "description": ""
+        },
+        {
+            "pathway_id": "k6-executors",
+            "course_id": "ramping-arrival-rate",
+            "title": "Ramping Arrival Rate Exercise",
+            "description": ""
+        },
+        {
+            "pathway_id": "k6-executors",
+            "course_id": "externally-controlled",
+            "title": "Externally Controlled Exercise",
+            "description": ""
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+  "noindex": true,
+  "title": "Shared iterations Exercise",
+  "description": "",
+  "difficulty": "Beginner",
+  "time": "5 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    }
+  },
+  "files": [
+    "test.js"
+  ],
+  "environment": {
+    "hideintro": false,
+    "hidefinish": true,
+    "hideHiddenFiles": true,
+    "uilayout": "editor-terminal",
+    "uisettings": "javascript",
+    "uieditorpath": "/root/scripts"
+  },
+  "backend": {
+    "imageid": "nodejs:12"
+  }
+}
