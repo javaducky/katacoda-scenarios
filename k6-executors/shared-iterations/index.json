@@ -28,6 +28,6 @@
     "uieditorpath": "/root/scripts"
   },
   "backend": {
-    "imageid": "nodejs:12"
+    "imageid": "ubuntu"
   }
 }
