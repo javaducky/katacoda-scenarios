@@ -13,7 +13,7 @@
     ],
     "intro": {
       "text": "intro.md",
-      "credits": ""
+      "background": "setup.sh"
     }
   },
   "files": [
